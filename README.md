@@ -1,11 +1,11 @@
 # Old Faithful Geyser — Exploratory Data Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores the Old Faithful geyser dataset using Python to understand patterns in eruption duration and waiting time. Through exploratory data analysis (EDA), I investigated distributions, relationships between numerical variables, differences between eruption types, and potential outliers.
 
 
-## 🎯 Objectives
+## Objectives
 
 - Explore and understand the dataset.
 - Analyze the distributions of eruption duration and waiting time.
@@ -14,7 +14,7 @@ This project explores the Old Faithful geyser dataset using Python to understand
 - Identify potential outliers using the IQR method.
 - Communicate findings through visualizations and summary statistics.
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset contains **272 observations and 3 columns**.
 
@@ -26,7 +26,7 @@ The dataset contains **272 observations and 3 columns**.
 
 The dataset was loaded using Seaborn's built-in `geyser` dataset. No missing values were found during the initial data inspection.
 
-## 🛠️ Tools and Libraries
+## Tools and Libraries
 
 - Python
 - Pandas
@@ -35,7 +35,7 @@ The dataset was loaded using Seaborn's built-in `geyser` dataset. No missing val
 - Google Colab
 - GitHub
 
-## 🔍 Analysis Performed
+## Analysis Performed
 
 1. **Data inspection:** Examined the dataset's structure, column names, data types, and missing values.
 2. **Descriptive statistics:** Analyzed the mean, median, standard deviation, minimum, maximum, and quartiles.
@@ -45,7 +45,7 @@ The dataset was loaded using Seaborn's built-in `geyser` dataset. No missing val
 6. **Outlier investigation:** Used box plots and the Interquartile Range (IQR) method to identify potential outliers.
 7. **Correlation analysis:** Compared the overall correlation with correlations calculated separately for each eruption type and visualized the overall correlation matrix using a heatmap.
 
-## 📈 Key Findings
+## Key Findings
 
 - Eruption duration and waiting time showed two distinct clusters in their distributions.
 - Duration and waiting time had a strong positive overall correlation of approximately **0.90**.
@@ -59,7 +59,7 @@ This analysis revealed distinct patterns in Old Faithful geyser eruptions and a 
 
 **Note:** Correlation indicates association, not causation. Potential outliers were identified statistically and were not automatically removed.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 old-faithful-geyser-eda/
@@ -67,7 +67,7 @@ old-faithful-geyser-eda/
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 
 1. Open the notebook in Google Colab.
 2. Run the cells from top to bottom.
@@ -75,7 +75,7 @@ old-faithful-geyser-eda/
 
 The dataset is loaded directly through Seaborn, so a separate dataset download is not required.
 
-## 🌱 Learning Outcomes
+## Learning Outcomes
 
 
 - Data inspection and descriptive statistics

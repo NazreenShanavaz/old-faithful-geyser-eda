@@ -53,7 +53,7 @@ The dataset was loaded using Seaborn's built-in `geyser` dataset. No missing val
 - The within-group correlations were weaker than the overall correlation: approximately **0.32 for long eruptions** and **0.43 for short eruptions**.
 - The IQR method flagged a waiting time of **96 minutes** in the long-eruption group as a potential outlier.
 
-## 💡 Conclusion
+## Conclusion
 
 This analysis revealed distinct patterns in Old Faithful geyser eruptions and a strong overall association between eruption duration and waiting time. Comparing eruption types showed that group-level patterns can differ from the overall relationship. The project also provided practice in using visualizations, descriptive statistics, correlation, and outlier detection to explore real-world data.
 
